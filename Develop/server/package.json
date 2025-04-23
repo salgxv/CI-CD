@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "seed": "node dist/seeds/seed.js",
-    "start": "node server.ts",
+    "start": "ts-node src/server.ts",
     "watch": "nodemon dist/server.js",
     "test": "vitest"
   },
@@ -24,7 +24,8 @@
     "dotenv": "^16.4.5",
     "msw": "^2.3.1",
     "nodemon": "^3.1.0",
-    "typescript": "^5.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
     "vitest": "^2.0.1"
   }
 }
