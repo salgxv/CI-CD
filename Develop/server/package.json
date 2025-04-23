@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "seed": "node dist/seeds/seed.js",
-    "start": "node server.js",
+    "start": "node server.ts",
     "watch": "nodemon dist/server.js",
     "test": "vitest"
   },
