@@ -9,7 +9,9 @@
     "seed": "node dist/seeds/seed.js",
     "start": "node dist/server.js",
     "watch": "nodemon dist/server.js",
-    "test": "vitest"
+    "test": "vitest",
+    "build:client": "cd ../client && npm install && npm run build",
+    "postinstall": "npm run build:client"
   },
   "keywords": [],
   "author": "",
